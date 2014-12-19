@@ -53,6 +53,12 @@
     <Compile Include="AlphabeticalOrderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Reto8\Reto8.csproj">
+      <Project>{24ea1ab1-ce0b-4506-9f33-78df7197eac1}</Project>
+      <Name>Reto8</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
